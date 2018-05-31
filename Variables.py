@@ -1,5 +1,6 @@
 total_population_variables = [
     "B01001_001E",  # total population
+    "B17001_001E",  # total poverty
 ]
 
 race_variables = [
@@ -14,7 +15,15 @@ race_variables = [
 ]
 
 household_variables = [
-    "B00002_001E",  # total housing units
+
+    "B09018_001E",  # total pop under 18
+    "B10002_004E",  # total under 18 living with grandparent and no parent
+    "B09002_009E",  # single fathers
+    "B09002_015E",  # single mothers
+    "B09018_003E",  # biological child
+    "B09018_004E",  # adopted child
+    "B09018_005E",  # stepchild
+    "B09018_008E",  # foster or unrelated child
 ]
 
 citizenship_variables = [
@@ -54,4 +63,20 @@ poverty_level_by_age = [
     "B17020_004E", # 6 to 11 years
     "B17020_005E", # 12 to 17 years
     "B17020_006E", # 18 to 59 years
+]
+
+children_per_household = [
+    "B09001_002E", # total under 18
+]
+
+combination = [
+    "B17001_001E",  # total population
+    "B17001_002E",  # total poverty
+    "B17023_001E",  # total families
+    "B17023_002E",  # total families below poverty line
+    "B11004_010E",  # total families with related children under 18, single father
+    "B11004_016E",  # total families with related children under 18, single mother
+    "B19058_001E",  # total households
+    "B19058_002E",  # total on cash public assistance or food stamps
+    "B19013_001E",  # estimated median household income
 ]
